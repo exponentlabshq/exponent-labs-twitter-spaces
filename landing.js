@@ -1,6 +1,21 @@
 // Landing Page JavaScript - Clean and Simple
 // Only essential functionality for a professional landing page
 
+// Video background handling
+document.addEventListener('DOMContentLoaded', function() {
+    const video = document.querySelector('.hero__video-bg');
+    if (video) {
+        video.addEventListener('loadeddata', function() {
+            document.querySelector('.hero').classList.add('video-loaded');
+        });
+        
+        video.addEventListener('error', function() {
+            // Fallback to static background if video fails to load
+            document.querySelector('.hero').classList.remove('video-loaded');
+        });
+    }
+});
+
 // Navigation function
 function navigateToExecutiveSummary() {
     // Check if we're on the same page or need to navigate
