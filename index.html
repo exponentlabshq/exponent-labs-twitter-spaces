@@ -3,63 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exponent Labs Executive Summary</title>
+    <title>Exponent Labs - AGI Development Through Thought Functions</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <canvas id="threejs-canvas"></canvas>
-        <h1 id="title">Loading...</h1>
-        
-        <input type="text" class="search-box" placeholder="Search through the executive summary..." id="searchBox">
-        
-        <div class="nav-tabs">
-            <button class="nav-tab active" onclick="showTab('frameworks')">Theoretical Frameworks</button>
-            <button class="nav-tab" onclick="showTab('thought-functions')">Thought Functions</button>
-            <button class="nav-tab" onclick="showTab('implementations')">Software Implementations</button>
-            <button class="nav-tab" onclick="showTab('insights')">Key Insights</button>
-            <button class="nav-tab" onclick="showTab('achievements')">Technical Achievements</button>
-            <button class="nav-tab" onclick="showTab('prototypes')">Live Prototypes</button>
-            <button class="nav-tab" onclick="showTab('future')">Future Directions</button>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__container">
+            <!-- Brand Identity -->
+            <div class="hero__brand">
+                <img src="exponent-labs-logo.jpeg" alt="Exponent Labs" class="hero__logo">
+            </div>
+            
+            <!-- Primary Message -->
+            <div class="hero__message">
+                <h1 class="hero__headline">Building the Future of AI</h1>
+                <p class="hero__subheadline">
+                    We're solving the hardest problems in artificial intelligence by combining 
+                    breakthrough theoretical insights with rapid, real-world testing.
+                </p>
+            </div>
+            
+            <!-- Primary CTA -->
+            <div class="hero__cta">
+                <button class="cta-button" onclick="navigateToExecutiveSummary()">
+                    See Our AGI Blueprint
+                </button>
+            </div>
+            
+            <!-- Supporting Visual -->
+            <div class="hero__visual">
+                <div class="hero__illustration">
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <h3>Breakthrough Theory</h3>
+                            <p>Novel approaches to AI reasoning</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>Rapid Testing</h3>
+                            <p>From concept to working demo in days</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>Real Results</h3>
+                            <p>Proven solutions to unsolved problems</p>
+                        </div>
+                        <div class="tech-item">
+                            <h3>Future Ready</h3>
+                            <p>Building tomorrow's AI infrastructure</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Trust Indicators -->
+            <div class="hero__trust">
+                <div class="trust-item">
+                    <span class="trust-icon">⚡</span>
+                    <span class="trust-text">Breakthrough Innovation</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🚀</span>
+                    <span class="trust-text">Rapid Execution</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🎯</span>
+                    <span class="trust-text">Proven Results</span>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div id="frameworks" class="tab-content active">
-            <h2>Core Theoretical Frameworks</h2>
-            <div id="frameworks-content"></div>
-        </div>
-
-        <div id="thought-functions" class="tab-content">
-            <h2>Thought Functions and Prompts</h2>
-            <div id="thought-functions-content"></div>
-        </div>
-
-        <div id="implementations" class="tab-content">
-            <h2>Practical Software Implementations</h2>
-            <div id="implementations-content"></div>
-        </div>
-
-        <div id="insights" class="tab-content">
-            <h2>Key Insights and Lessons</h2>
-            <div id="insights-content"></div>
-        </div>
-
-        <div id="achievements" class="tab-content">
-            <h2>Technical Achievements</h2>
-            <div id="achievements-content"></div>
-        </div>
-
-        <div id="prototypes" class="tab-content">
-            <h2>Live Prototypes</h2>
-            <div id="prototypes-content"></div>
-        </div>
-
-        <div id="future" class="tab-content">
-            <h2>Future Directions</h2>
-            <div id="future-content"></div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <script src="landing.js"></script>
 </body>
 </html>

@@ -566,3 +566,21 @@ function removeHighlights() {
         parent.normalize();
     });
 }
+
+// Mobile Navigation Toggle Function - New Addition
+function toggleMobileNav() {
+    const dropdown = document.getElementById('mobileNavDropdown');
+    if (dropdown) {
+        dropdown.classList.toggle('show');
+    }
+}
+
+// Close mobile nav when clicking outside
+document.addEventListener('click', function(event) {
+    const mobileNav = document.querySelector('.mobile-nav');
+    const dropdown = document.getElementById('mobileNavDropdown');
+    
+    if (mobileNav && dropdown && !mobileNav.contains(event.target)) {
+        dropdown.classList.remove('show');
+    }
+});
