@@ -1,0 +1,1229 @@
+SPEAKER 1 (ROCKY, CTO, MICHAEL MENTOR, EXPONENT LABS)
+Good.
+
+SPEAKER 2
+Where are we? Yes, yes, yes. This is good. This is very good. Hello, this is Michael Jagdale. I'm a headhunter launching startups with the Syndicate and Exponent Labs and others, I guess. Again, my name is Michael Jagdale. I'm a headhunter launching startups with the Syndicate. And right now I'm watching Manus create a categorical category theory explanation of SICP using Street Fighter and specifically Rayu. I'm doing this because obviously we're creating AGI. I mean, what else is there left to do? You know, there's going to be a bunch of people create AGI. Does that make sense? Right? And the true AGI will probably result as an interaction between them, you know, because the interaction between them will lead to unbounded self replication. Or haven't you noticed? Even myself, I'm talking to the guys about having the agents speak in Esperanto, not even using English, because if we have agents speak to each other, why would we force them to speak English? Think about that. If you're going to design communication between agents, why are you choosing English? Because it's the language you speak that's stupid. So, long story short, with mentorship from Rocky, I was able to. And by the way, when I say mentorship with like Rocky, I hesitate because there's a lot of people that I wouldn't have that have helped me along the way. So I will. I always feel self conscious about, you know, mentioning one person, but specifically Rocky spent a boatload of time with me in the past week, past month. Really taken over from Paul as my coding mentor for now because Paul's on vacation. No, get the break for me, I guess. Who could blame him? So Rocky's been taking over as my mentor and I went from front end, which is HTML, CSS, JavaScript, to adding a backend. That's what Paul taught me. Using Python and Flask to create an API so I could add AI interactivity and functionality to my user interface as my front end. And after Python, I created a backend in Nadin because Rocky suggested that's the future. And then after that I was like, I can see what this code is doing. What about Rust? And yeah. And so we submitted. Hey, Rocky. I'm just doing the Rocky GPT summary for the AI.
+
+SPEAKER 1 (MICHAEL, HEADHUNTER & VIBE CODER & ROCKY MENTEE, EXPONENT LABS)
+Yeah, we're just all sitting alone.
+
+SPEAKER 2
+Yeah.
+
+SPEAKER 1
+Spaces talking to the AI now.
+
+SPEAKER 2
+That's it. I was playing with AGI by.
+
+SPEAKER 1
+Just.
+
+SPEAKER 2
+Like having ChatGPT on in the background, the voice mode while I'm learning. And so as I'm talking To myself, like, what the hell's an idiom? Right? I'd be like, oh, idioms. Idioms are kind of like, you know, when Ryu does a block and a punch, and I'm like, oh, oh, really? You mean I can understand everything through the metaphor framework of ryu. I really like Street Fighter, and I understand a lot about ryu. How about this? Why don't you write a complete curriculum on, you know, SICP? You know, that 900 page computer science book? You know, those, like, massive books with like, the.
+
+SPEAKER 1
+From O'Reilly or whatever.
+
+SPEAKER 2
+Yeah. You know, the one with the mages and, you know. But this One is from 1982. Structure and interpretation of Computer Programs, the Way of Ryu. A Complete Curriculum using Street Fighter combat mechanics as pedagogical framework. So that's what Manus is doing right now. So now I can explain sicp. And by the way, he wrote the whole voice script for the teacher. Right? So that's kind of where I am right now. You guys have fucked with my brain. I didn't know what I was getting into. Did you know what you were getting into when you started all this shit? Like, can you think back when you were learning how to program? Did you have any fucking idea?
+
+SPEAKER 1
+No, Michael, I did not set out on this journey to build out AGI.
+
+SPEAKER 2
+Right. You know what I mean? But I did watch Terminator.
+
+SPEAKER 1 
+Well, I guess I've always wanted to build Jarvis, so I guess I did go into this journey wanting to build AGI.
+
+SPEAKER 2
+Yeah. And if anything, it's completely adaptive because I realize I do not talk to these things the way other people do. And I prefer the ChatGPT5 call me on my approach, which apparently is not very popular.
+
+SPEAKER 1
+It's popular, the top 1% of users, because those are the power users. Everyone else is not a power user.
+
+SPEAKER 2
+I can't remember where I heard it. True wisdom is the ability to exchange a fallacy for a fact. But I think ego. Because our truths are tied to our self concept and our. And if we change our truths, we might find ourselves as antagonists, not protagonist. And that's a very difficult. You ever look back at your life and be like, yeah, I was kind of an antagonist, but I'm a piece of shit for that, you know?
+
+SPEAKER 1
+Yep. Yeah. I look back on my life, I was like, okay, I guess I was a piece of shit back then.
+
+SPEAKER 2
+Yeah, right. Do you remember that moment you realized you weren't actually the protagonist you really thought you were?
+
+SPEAKER 1
+It's like, forgive me, Jesus, for I have sinned. And this is why I'm Catholic.
+
+SPEAKER 2
+Hey, Jesus, you understand, right? Come on, Jesus. I'm doing my best. They didn't have this kind of bread and circus when you were around.
+
+SPEAKER 1
+Yeah, I'm sorry, Jesus. I thought I was the protagonist of this story.
+
+SPEAKER 2
+When they say the.
+
+SPEAKER 1
+The path to heaven, the path to.
+
+SPEAKER 2
+Hell is paved with good intentions, that's how I feel about a lot.
+
+SPEAKER 1
+And what is it?
+
+SPEAKER 2
+The.
+
+SPEAKER 1
+The road to heaven or getting into heaven is easier for a camel through the eye of.
+
+SPEAKER 2
+Yes.
+
+SPEAKER 1
+Oh, and then I'm thinking about Carla Young.
+
+SPEAKER 2
+If you want your branches to reach to heaven, your roots need to reach to hell. And I'm like, oh no.
+
+SPEAKER 1
+Oh yeah. I'm just having some chipotle before 3 hours of meetings in 10 minutes.
+
+SPEAKER 2
+I like it. No, I really appreciate everything. So for the recording, I see there's two things that I could ask you about. I. I could ask you about what is your experience mentoring me and what did you learn? What you like, what did you dislike, what would you change and how would you change it? And then also if you can talk briefly just about railway and what our experience was like deploying there. Because now we're going from software and marrying software with infrastructure as code, which I think is a fucking big step for me at the very least. Yeah.
+
+SPEAKER 1
+Well, I mean, you call it mentorship, but it's really just co programming, really. I mean, in terms of mentorship, you do what Aiden and Christina do, which is they go out and they just do the thing that I told them to do. Right. Whether it's a good idea or not. Right. I think early on, like, you just don't know enough as the quote, quote mentee to give feedback. I mean, nowadays is very different. Like now, like between me, Aiden and Christina, like we're like coworkers now, right? I mean, yes, like, I still mentor them, right. But there's like the roles that you play. So sometimes I'm playing the role of the mentor. And so I was like, okay, time to sit back and listen to what I have to say. And then there's other times where like, oh, what do you guys think? Right? Because I'm not the UI UX designer. Right. I know best practices. Right. And so, you know, sometimes even during like a client call, when I sort of set it sense that like, you know, either Aiden or Christina are struggling, then I'll chime in or even within the discord, it's like, okay, let's not go down that direction. Right? Because that direction is very expensive. And I know, like just from experience that this client probably doesn't have $10,000 to spend on the feature that they think that they want. Right. And you know, it happens very often. Right. Scope creep.
+
+SPEAKER 2
+So you're actively changing roles with the same. So just because you're the same person does not mean you are adopting the same role, even within the same conversation.
+
+SPEAKER 1
+Yep, correct.
+
+SPEAKER 2
+Hero, villain, sidekick, mentor, and all of the spaces in between them.
+
+SPEAKER 1
+Yeah. I mean in terms of like qualities that I look for in a mentee is just the curiosity and willing to just try stuff. Right. Oftentimes people will ask me for advice and like, oh, how do I get a job or whatever. And then I ask them like, have you heard of Star method? Right? And they're like, no. Like did you look into Star Method in the last two weeks that I mentioned to you like last time? Right. And if they don't look into it after two weeks, I'll. Maybe I'll try again. Maybe a second time is like, okay, maybe you were busy, so look into that. Right. But after that, if they don't try it then I, it's probably not a good mentor mentee relationship after that. Right. Because I'm just like wasting energy and I could be mentoring somebody else or doing another project. Right. What was good is that I like that we just like co iterate co program. Right. Come with ideas really fast. Like yesterday was like the perfect Google Sprint, right?
+
+SPEAKER 2
+Oh, tell me.
+
+SPEAKER 1
+And it was so I unintentionally started a meeting with one of the free Google Meet accounts and those have a one hour limit. Right. And so basically we were like almost like on a clock. I don't know if you realize it.
+
+SPEAKER 2
+Work expands to fill the time allotted.
+
+SPEAKER 1
+Yeah, exactly. And so like the meeting was like, oh, you have 30 minutes left. You have 15 minutes left. It's like okay, what do we need to do next in the next hour? Right. And so I thought that was really helpful to just kick, kick ourselves in the butt and make a decision. And guess what? Aiden deployed the, the chat within an.
+
+SPEAKER 2
+Hour, but it took him 10 years to do it in an hour. That's the other thing for the listeners.
+
+SPEAKER 1
+Yeah, yeah, he's a unicorn, so he.
+
+SPEAKER 2
+Can do that stuff like that. Yeah. I feel like it took me a good almost 30 years to do what I'm doing in the. You know what I mean? So I don't know.
+
+SPEAKER 1
+Yeah, but, but even that doesn't mean that we ourselves, even though we have the capabilities to deploy in an hour doesn't mean that like, oh, we gave it a Week. It would have taken a week, right?
+
+SPEAKER 2
+Correct. Isn't that the weird thing? And that's the thing I think about money too. If somebody gave you a million dollars to create it, you don't think you'd spell out spend all the money. Of course you'd spend it. It's there. All right, guys, we're going to build, we're going to over engineer this, right? Over allocate time, over allocate resources, make a bunch of assumptions that we're just going to trust. So that's the other thing about the whole funding thing, which I think funding can really kill applications or startups when applied at the wrong time. So next time we do a hackathon, every time we do hackathons, we're submitting last minute. Right. Which I think is hurting our social campaign. You know what I mean? Right. But at the same time, I think I'm at the point where how many hackathons have we done? Few. Right. And we went from not being noticed to getting noticed to winning runner up in the voice flow. So I see the progress we've made over the past four years. And even though the commercial I made isn't necessarily the most engaging for the layperson, I think for the right target market or the right investor, that's exactly what I want to communicate for what we did there.
+
+SPEAKER 1
+So, yeah, this one is also tight, right. Because I think it started on Wednesday and ended this morning. Right.
+
+SPEAKER 2
+I think you told me the day before we're starting, hey, you know that thing you're creating? I think we should enter it here. I'm like, all right, what's infrastructure as code? You say that's what we started.
+
+SPEAKER 1
+Yeah, but, but I think it forced us to learn how railway works because I never used it before either.
+
+SPEAKER 2
+Dude, I learned it like literally 5:38am What's a railpack? JSON. Oh, that's what they need. Oh, wait a minute. I'm not supposed to, like an idiot, try to run a Google Chrome extension.
+
+SPEAKER 1
+Yeah.
+
+SPEAKER 2
+I realize just how stupid I am.
+
+SPEAKER 1
+Yeah. So I think that's. So what, what, what, what do we need to change? Right.
+
+SPEAKER 2
+And how would you change it is the last thing. So what did you know? Yeah, like what you didn't. Like, what would you change? How would you change?
+
+SPEAKER 1
+Yeah. So I think we do it the same way that we did the, the other project last night. So the other project was the Solana Seeker phone mobile app. Right. To Sprint really quick and get something up. Like just a working mvp. Right. Like that. That to me is a true Alpha mvp. Like done, done within an hour, deployed within two hours. Right.
+
+SPEAKER 2
+I reached back out to the, the ARC people. I think it's a good time to reconnect with them. So.
+
+SPEAKER 1
+Yeah, so, so what we do did well last night. So not, not related directly to the hackathon. What I would change is not to do three different projects at the same time. So we were doing the hackathon, we were looking into DORA hacks, which is the other hackathon, and we were doing Solana Mobile dev development, Right?
+
+SPEAKER 2
+Correct.
+
+SPEAKER 1
+And that's not to say that we can't do three different projects in one day. We just need to split it out where it's like, okay, this three hour chunk is dedicated to this project. It's like, okay, we're done, take an hour break and then come back and do another three hours. I think two sessions max per day, just so we don't get burnt out.
+
+SPEAKER 2
+Yes. Well, I was also thinking we're at the point with our granola meeting transcriptions where I'm pretty sure I can model us as roles. Does that make sense? And so I want to see what happens when we make a conference of our synthetic selves and give them a PRD and see.
+
+SPEAKER 1
+Exactly. So what I want to try and do, which is why I, I say that like you should probably get OMA to cancel your cursor subscription and get a claud. Just a $20 Claude subscription because you also get clock code just like the normal base.
+
+SPEAKER 2
+Calling tomorrow. Yeah, he's calling me tomorrow. He has his computer back tomorrow.
+
+SPEAKER 1
+Because you get access to sub agents. So I don't know if it works or not. I need to try it out. But, but if, if you know how I'm doing like a project, the cloud life. Right. So like we would have Cloud Life Dash Rocky, Cloud Life Dash Blockface and Cloud Life Dash Aiden and so on and so forth. Everyone on the team. Right. And then I would try and, and create. Cause you can run background jobs or like background agents, which I think cloud calls sub agents. Right. It's like running a job that doesn't run in the sort of CLI ui. Like it's not showing the progress.
+
+SPEAKER 2
+That's what I need for the AGI because essentially there's a lot of role agent agent role to role communications that are completely hidden from the user and they only see the outcome which is the response or next critical.
+
+SPEAKER 1
+Yeah.
+
+SPEAKER 2
+So.
+
+SPEAKER 1
+I think at some point you can be like, okay, take every role that's in Team md, use the cloud Life Sub directory for everyone on the team, spin up sub agents per role and then run the prd.
+
+SPEAKER 2
+And then that's why I want to run the prompts I've been creating with Manus and all the body of knowledge through the Claude thing you have as a one shot. Because I've already designed the role. So for example, the system orchestrator is the main role, but there are other roles like again, these are utility roles, like the system health check. What's the availability and capacity and throughput of the network. For example, you have a audit logger which is keeping track of all, every single data point associated with everything that's happening. Right. So these rules are already defined. Did you see that? I'm not sure if you saw it. I call them the 12 disciples.
+
+SPEAKER 1
+Nice, I like that. Because guess What?
+
+SPEAKER 2
+Plus or minus one actually.
+
+SPEAKER 1
+Well, no, you can't plus one because remember the 13th person is Jesus and you can't have that.
+
+SPEAKER 2
+The thesis here is that if we're going to create AGI, it's going to be structured as an exponential organization.
+
+SPEAKER 1
+Exactly. Yeah, exactly.
+
+SPEAKER 3
+Right.
+
+SPEAKER 1
+Because Daniel Priestley said the 13 person, if you're scaling to 13, you have to be ready to scale to 50. Right?
+
+SPEAKER 2
+Hey, you know what? The the 12 to 50 agencies is all of the micro roles for the tasks. Because the system orchestrator isn't the task coordinator. That was a key distinction. The task coordinator is having the conference with the political, legal, regulatory, the economic, socio cultural, blah, blah, blah. And so for most scenarios most of these rules are going to say no input. Does that make sense? Right, because it won't relate to geography, for example, that much. Or they might just say one, one sentence. And then we have this conference, everybody provides their inputs and then there's a decision maker that's according to the constitution of positive and negative prompts to evaluate. So yeah, these sub agents allow me to go from the initial 12 disciples to get it running. And then the micro roles, right, which make up the rest of the exponential organization is the 13 to 50, the copywriter, the film director, blah blah, blah.
+
+SPEAKER 1
+Yeah. And that's when the copywriter is not one copywriter, but you, your. So like you have the main or orchestrator, but now your copywriter is the copywriter orchestrator, where they are like organizing and reviewing and auditing. Right. Maybe five other copywriters creating 10 versions each of their own in different styles and different frameworks.
+
+SPEAKER 2
+Correct, Right. That's when you have. Each of the outputs are different courses of action. Right. And so if you have at least Three courses of action, then you can have enough to synthesize the final outcome.
+
+SPEAKER 1
+Yeah. Once we get to 13, you got to be ready to double that to 24 at least, and then double that afterwards.
+
+SPEAKER 2
+So I know you have to go soon, but you want a rocky GPT. What capabilities we've realized that we have in our arsenal and what we're planning to do with that arsenal of capabilities over the next 30 days. Sure.
+
+SPEAKER 1
+So I think next steps is to really utilize linear. Right. So let's get into the practice. So. So that's why I want you to get the CLAUDE account, because then you can now connect CLAUDE through MCP with Notion and Linear. So instead of going into Linear and creating tickets, you'd be like, okay, our. Our next project. So for project, you know, Railway Hackathon, right. The debrief has five tickets, right? These five tickets are something, something. Right. And it'll help you write the tickets. Right. And those become our clear action items for the work session. That's like maybe two to three hours, right? Yeah. And I think that, I think that that would be. The improvement is more better time blocked. Focus time on just one project. Right. Using tools between cloud projects. I'm trying to get better at using cloud projects because then it has its own context window for just the projects. Right. So every hackathon, every project gets its own cloud projects, you know, tied to MCP through Notion for context. Right. For all of the documents that we generate should probably go into either Google Docs that you can link to and again and again, MCP through cloud could connect through Google Drive and, you know, Google Docs as well. Right. So you can use those things as well.
+
+SPEAKER 2
+The. So the Claude life represents to me the data structure of data structures. And if we can keep these data structures similar between folks, that enables the functors to emerge and things like that, if that makes sense.
+
+SPEAKER 1
+Yeah, yeah. Because right now we keep everything in WhatsApp and it gets lost.
+
+SPEAKER 2
+It's unstructured right now. And with the inclusion of linear. Can you say a few words about linear and what we've tried so far, that has failed. And why do you think linear with Claude, given what you've done with notion, is going to succeed? Sure.
+
+SPEAKER 1
+So we tried Huli with Red Block Labs. Right. But Huli just didn't have a robust mobile solution. So that failed because mobile was not supported. Right. So it wasn't mobile first. So then I couldn't get things done when I wasn't at a computer. Right. And I imagine you're on the Phone a lot and so you would probably want something mobile first.
+
+SPEAKER 2
+Right.
+
+SPEAKER 1
+And then we tried Confluence, that worked out for a little bit. But I think the, they're more slow moving, like they have some MCP and things like that. Right. They connect to GitHub, but I think their app is a little slow, like just like performance wise in my opinion. It's also like a lot of settings. Like I think it's great for like enterprise, but it's not good for startups. And I, I see, and you've mentioned it too, right? The UI UX LINEAR is, is clean, it's sleek, not a lot of settings. Yeah.
+
+SPEAKER 2
+Onboarding experience I've had in a long time. And it was black and white. It was black and white.
+
+SPEAKER 1
+Yep. And I think once you get used to using Command K. Right. Search for the actions and not click around. So we're, we're going to level up because like the better you get, the better you get and the more comfortable you are at Claude code and using the cli. You're going to love the commands of LINEAR and these developer first tools because it's all keyboard based, you don't have to touch your mouse at all and it's pretty fantastic. There are even other level ups where you're using super Whisper, where you're just talking to it, so you don't even need a type any. At some point we're not even need to type, we're just going to talk to these things. So it'll be great. All right, I gotta hop, but it was good. Recap.
+
+SPEAKER 2
+That's awesome.
+
+SPEAKER 1
+Railway. Yeah. Talk soon.
+
+SPEAKER 2
+Peace.
+
+SPEAKER 3 (BEAN | FOUNDER | PRODUCTIVEMINER.ORG)
+I didn't want to interrupt.
+
+SPEAKER 2
+It's all good. I know that a lot of the conversations relevant to what you're thinking about, like the railway and infrastructure is coming.
+
+SPEAKER 3
+So yeah, I attempted to use railway and then when I was signing up it said you cannot use this for cryptocurrency. And I was like, I don't have time for this, I gotta go.
+
+SPEAKER 2
+I hear you.
+
+SPEAKER 3
+I've seen that a few times now.
+
+SPEAKER 2
+Well, to me the paradigm is enough. I wonder, a good question that I want to know now is what is the railway for crypto?
+
+SPEAKER 3
+I don't know. I'm using AWS right now and it's sucks. There's so many moving parts and I can't get all the pieces to talk to one another properly.
+
+SPEAKER 2
+It's.
+
+SPEAKER 3
+It's really going, but. Sorry, what did you say?
+
+SPEAKER 2
+No, I, I think I know enough code to get a basic version of this working. Yeah. Because I learned Back end development in the past month. Right. So all of that stuff where it's talking about Docker this and blah, blah, blah, I had to learn that in the past month to do this hackathon. So I'm gonna have some time now to look back at what you sent me and I might do some vibe coding on it. Send you what I have.
+
+SPEAKER 3
+Well, I. I have a new GitHub I created once for my project. Oh, the website here. And then I have the website, like sort of a kind of. So. But I'll send you. Let me just push the changes.
+
+SPEAKER 2
+Awesome language.
+
+SPEAKER 3
+I know. I'm learning the jargon.
+
+SPEAKER 2
+Learning, right? Aren't you becoming, like, incomprehensible to yourself and others?
+
+SPEAKER 3
+Yeah, I'm just sitting here on my computer, tap, tapping away.
+
+SPEAKER 2
+Okay, my phone's gonna die, so I'm gonna switch over. Hold on.
+
+SPEAKER 3
+Hi, Kar.
+
+SPEAKER 2
+Yes? Things are getting strange now.
+
+SPEAKER 3
+What's getting strange?
+
+SPEAKER 2
+Just every little bit. I learned more about code. It's like rewiring my brain.
+
+SPEAKER 3
+I know. And it's not even the coding that's the hard part. It's all these different interfaces that have their own, like, jargon and like, completely different setups, different API keys and secret codes and this, that, and the other configuration you have to set up. I'm like, oh, my God. The coding part isn't bad.
+
+SPEAKER 2
+It's the.
+
+SPEAKER 3
+All these other getting it to run part.
+
+SPEAKER 2
+So, yeah, it's the getting it to run part is the part that I'm learning now. That's why I think I'm in a position to kind of help you turn GitHub and turn it into a prototype that we can watch run starting in the terminal. Hey, we have a node over here and it's doing this. It was able to add one plus one is two. Is that true? Really? Then you check with the others. Hey, this person says one plus one is zero. That's a sybil. Shit like that.
+
+SPEAKER 3
+Exactly.
+
+SPEAKER 2
+I wouldn't start with really complicated things that take a long time to run. I would just take simple, maybe latex expressions and then introduce a sybil to see the consensus at play with very, very simple things. And when we can build up the complexity.
+
+SPEAKER 3
+That's what I should have done. But I started with the most complex.
+
+SPEAKER 2
+I used to do that too. And then a developer told me that it might sound stupid, but you should always start with the hello world version of your concept, because the hello world version of your concept forces you to make prototype decisions and move from the realm of pure ideas. Into the constraints of, like, information physics, essentially. Because that's what we're dealing with, right? Information physics.
+
+SPEAKER 3
+Yes, yes, exactly. But the thing is, I came at this from a mathematical point of view, like, from like, very high level, like, math concepts. And so I didn't think to dumb it down because it's part of the security engine of my blockchain as well.
+
+SPEAKER 2
+Well, the more I'm learning to code, the more I realize I'm going to speak through what I create. And I remember Terry Pratchett said, they didn't speak, they changed the world such that they had spoken. And so I'm realizing not many people really need to understand what I'm doing. And to be honest with you, even if I told people, they would either think I was stupid, insane, or just hallucinating, right? So we may be creating systems that are only intelligible to a few people. Go ahead, Karma.
+
+SPEAKER 4
+You gotta laugh, man. So I went to the pub a month or so ago and I'm talking to this guy that I know, and I've talked to him about crypto and stuff before, so he was asking me this and that and whatever, and then he, you know, went off over, hung.
+
+SPEAKER 2
+Out with his wife.
+
+SPEAKER 4
+And so this other guy comes over and he's like, what were you guys talking about? And I was like, blah, blah, blah. And about halfway through the conversation, he goes, I can't tell if you're brilliant or full of. And then the conversation continues, blah, blah, blah. And then he said the same thing again. I was like, let's just go with. I'm. We can leave it there, but nah, man, you. You can't go into some of the stuff of people. And it's the same story with everybody all over the world, because through this Twitter thing, I talk to people on pretty much every continent except Antarctica. I don't care where you are. You could be in New York City, London, Berlin, it's the same story. There's no one around in my town.
+
+SPEAKER 2
+That I can talk to about this stuff.
+
+SPEAKER 4
+So it is really no point in even trying. At least this is my opinion. And getting all the stuff to work together is definitely a challenge.
+
+SPEAKER 2
+Doable.
+
+SPEAKER 4
+Yeah, Depends on how much you're doing in house versus, you know, outsource.
+
+SPEAKER 2
+But.
+
+SPEAKER 4
+I have a tendency towards in house, but, you know, sometimes it's just not the proper economic decision.
+
+SPEAKER 3
+Definitely not for me. For the most part. I would love to outsource, but I don't know who I can trust. And also, I don't have that many dollars the dollar bills are low right now.
+
+SPEAKER 4
+Yeah, it's a shame because there's a lot of people that have good projects and they just don't have the money to build them.
+
+SPEAKER 3
+I know. I'm trying to bootstrap it.
+
+SPEAKER 4
+Yeah, they're really good projects too.
+
+SPEAKER 2
+It's. It's like, damn, dude. Like, how can I help you get.
+
+SPEAKER 4
+Like, the money that you need?
+
+SPEAKER 3
+Yeah, at this point, I don't even need money. I just need expertise.
+
+SPEAKER 2
+Like, well, that's even harder to find than money.
+
+SPEAKER 3
+I know money all over the place.
+
+SPEAKER 4
+But, you know, people with brains behind.
+
+SPEAKER 2
+That money, and that's a little rare.
+
+SPEAKER 4
+But finding people that actually know what you're doing.
+
+SPEAKER 2
+Good luck.
+
+SPEAKER 3
+Definitely been a struggle. Also, the AI is half the time don't even know what they're doing. And I'm like, you're supposed to make this easier.
+
+SPEAKER 4
+Yeah, it was funny. I was watching a interview with. What's this, the Sam guy? The one from OpenAI Altman.
+
+SPEAKER 2
+That one.
+
+SPEAKER 1
+Yeah, yeah.
+
+SPEAKER 2
+And.
+
+SPEAKER 4
+You know, we use this term, but, like, it's AI slot, and he used the same term. And. And I was like, oh, that's funny because it still has to be cleaned up.
+
+SPEAKER 2
+Yep.
+
+SPEAKER 3
+Oh, yeah, for sure. I'm just trying to use it to get my freaking thing deployed and it's not working.
+
+SPEAKER 4
+Well, it doesn't to me sound like. From our conversation this morning, it doesn't sound like you're trying to do a basic thing.
+
+SPEAKER 3
+No, I'm not. I. I was like, f. The basics, we're going, all.
+
+SPEAKER 2
+Right.
+
+SPEAKER 4
+Basic stuff. The AI can be pretty good.
+
+SPEAKER 3
+Yeah, no, I'm. I'm an out of the box thinker, and the AI gets confused a lot of the time. That's maybe my bad. Prompt engineering as well.
+
+SPEAKER 2
+Just, I. I think I'm on the verge of really understanding category theory, something I've been struggling with for almost like eight years.
+
+SPEAKER 3
+Oh, you're gonna have to explain that to us lay people.
+
+SPEAKER 2
+The idea of category theory is that although we have different names for things in different domains, they're kind of all the same thing. And category theory is the idea that you can turn these entities in a domain into objects and understand the transformations and processes they go to. If you really derive what's beneath all of that, you'll see the similarities on other domains. And category theory aims to look at domains as sets and then look at all of the common transformations and functors and isomorphisms and natural transformations that exist. So that's all in category theory.
+
+SPEAKER 3
+Cool.
+
+SPEAKER 2
+I need to See a flowchart, for example, propaganda. Propaganda is to the military as branding is to a startup, for example.
+
+SPEAKER 3
+Fair. Yeah.
+
+SPEAKER 2
+Right. And you can see that both domains use different language, but are essentially describing the same entities and objects and processes. So the category theory is a try to. Is an attempt to formalize all of those matrix like rules that underlie things that look very different on the surface.
+
+SPEAKER 3
+Gotcha. Cutting through the jargon.
+
+SPEAKER 2
+Yes.
+
+SPEAKER 3
+Well, that's really good skill to have.
+
+SPEAKER 2
+Yeah. So I'm using all these. So right now I'm creating my data structures for these domains such that we can understand the functors and natural transformations and have the AI do the actual math with concepts and objects rather than math, but just you can't do math with strings, if that makes sense. Right. I didn't plan to do any of this, but, you know, the more I learn how to code, the more capabilities I have. More capabilities I have, the more my ambition changes.
+
+SPEAKER 3
+I guess I completely agree with that. Like, when you have this new skill, it changes your trajectory and you can do more things. Opens new doors.
+
+SPEAKER 2
+I remember my friend Snake said everyone has an epistemic center, but most people never move theirs. And I find the more I understand about data structures and algorithms, the more it rearranges information in my brain, which is changing me as a person because it's forcing me. You can't learn a new data structure without changing your epistemic center on a bunch of other things, you know, if you really learn.
+
+SPEAKER 3
+Oh, for sure. I completely agree with that.
+
+SPEAKER 2
+By the way, this is a beautiful domain. You could just get bought, acquired for the domain.
+
+SPEAKER 3
+Thank you. I appreciate that.
+
+SPEAKER 2
+Almost like you know what you're doing.
+
+SPEAKER 3
+I try. I'm gonna fake it till I make it.
+
+SPEAKER 2
+I like it.
+
+SPEAKER 3
+I like the purple and the yellow. I think it's a fun combination. At least it's the stud. It doesn't work, but it's aesthetically pleasing.
+
+SPEAKER 2
+Love it. Looks amazing.
+
+SPEAKER 3
+Thank you. Now if only I can get the APIs. APIs? Yeah. To work properly. I thought this is the wrong word.
+
+SPEAKER 2
+So tell me the challenge there. Be as specific as possible. And I know, like, sometimes I have difficulty speaking to my mentor because I know I'm using the wrong language. But don't worry about the language. Just tell me what is the input that you want to give to the API and what is the response you'd like to get back?
+
+SPEAKER 3
+Well, there's a lot and that's the.
+
+SPEAKER 2
+Issue, but just start with one again. Hello, world. What's the most fundamental API that We need responding to us without which nothing else works.
+
+SPEAKER 3
+Got it. So the main one is the mining function under the mining tab. If you have it open, that's where you can select which mathematical problem you want. But the API isn't. It's not routing properly. It failed to start the mining session and it was working before. So I know it works because there's blocks in the ether scan IO because I deployed a smart contract. So I know it's. It works.
+
+SPEAKER 2
+It's just.
+
+SPEAKER 3
+It's not connecting right now and I can't. I think it might be a database issue on the back end. Like the database keeps starting and stopping, but I'm not 100 sure. It's really. AWS is not very good with troubleshooting. Like their explanation of why something fails is like one word. I'm like, well, okay.
+
+SPEAKER 2
+One of the broke ass ways that I'm making progressively better and better prototypes is simulating things that I haven't fully created yet, if that makes sense. Instead of doing the mathematical transaction, I.
+
+SPEAKER 1
+Might add.
+
+SPEAKER 2
+Like a randomizer or something like that, or just put in synthetic data. Synthetic data is really helping me a lot with prototyping because it allows me to have a user without having a user. So if I can simulate without blockchain, without even a smart contract, simulate the most basic system, then I can have the LLM rewrite that system into the languages and paradigms I need. Does that make sense?
+
+SPEAKER 3
+Yeah, and that's what I was trying to do. Honestly, I had it running perfectly locally before I started deploying it in AWS.
+
+SPEAKER 2
+I had that problem at 5:38 in the morning yesterday with Railway. So I, I hear you.
+
+SPEAKER 3
+That's the thing. It's like, oh, it's running, it's perfect, it's ready to deploy. And then there's all of these kinks because the networks have their own little things. Like Railway is different than GitHub is different than AWS.
+
+SPEAKER 2
+I just, I learned that I could serve on a certain port on my computer, but then when I go to the web I have to serve on 0000. Some little weird things I've had to learn.
+
+SPEAKER 3
+Oh yeah. And you have to change it every time. Like if I'm running a local deployment, it needs to be on a local port and if I'm running it on aws, it needs to be on that port. And it's just every time. And it's like switching back to. I don't want to switch back to local because I already have something mostly deployed and it's just like troubleshooting. Like that's not helpful to me right now. It's like. But I know it works. There's blocks have been mined, contracts have been deployed. Weird connectivity issues.
+
+SPEAKER 2
+I wonder if you can get away with just testing this as a non crypto thing, if that makes sense. Like we're not using any crypto. I'm just using strings of text. This is just for prototyping, you know.
+
+SPEAKER 3
+It is, yeah. That's what I'm doing. It's in a. What's it called? Sepolia testnet. I didn't deploy it to a mainnet. It's in a test net. Don't worry, I'm not messing with. I don't want to lose anyone money. That's not my goal. I'm just trying to see if this works.
+
+SPEAKER 2
+Turns out people want the prospect of losing money if it means they can have that casino experience.
+
+SPEAKER 3
+I know, and I've had people tell me, they're like, I would love to invest once you have it up and running. And I'm like, well, I, well, you know, I'm not there yet.
+
+SPEAKER 2
+But this is what I've learned from raising money or attracting funding as we say, which is you don't have to necessarily have the solution running. I've noticed that the people in my network that are raising sometimes hundreds of millions of dollars, they have letters of interest. And these letters of interest represent dedicated revenue streams. And that was enough for them to proceed to the next level because they were so exhaustive in all of their letters of interest that they gathered over the past five years. And so I think in the similar vein, if you can have people register the email address on your landing page and just log that interest and subscribe for updates, I think that's enough at this stage because how do we capture all of that enthusiasm, saying, look, I don't want your money right now because I'm only going to take it if I have something that I know I can stand behind. But I'd love for you to register your interest and if you have like, you know what I mean, you around and get 100 to a thousand signups, people are going to pay attention and the money's going to find you.
+
+SPEAKER 3
+Yeah, for sure. I have to get that up and running. I don't know if that works properly. That's. I haven't tested that one yet.
+
+SPEAKER 2
+Yeah, the email sign up I think is key because what Rocky is doing with E commerce is they, they don't sell stuff until they have pre orders.
+
+SPEAKER 3
+Yeah, yeah, yeah, like Kickstarter type things.
+
+SPEAKER 2
+Yeah, it's like startup Kickstarter. Exactly. It's like startup Kickstarter where the next best thing to revenue is 10,000 email signups. Does that make sense? Because email is a converter for actual money being transacted so.
+
+SPEAKER 3
+Well, that's also huge for like cryptocurrencies in general to get on an exchange. It costs so much to put a something on and like, like listed on an exchange unless you have enough usage. I think there's like a threshold you need to have, in which case they'll put it on for free. But Otherwise it's like $100,000. So yeah, engagement is huge. But again, I don't like feel comfortable asking for. For engagement until I have something someone can like tangibly understand. Like they can click on it and be like, oh, I get it.
+
+SPEAKER 2
+But at the same time, it might be a great way to attract the co founder, if that makes sense. Right. Yeah. So, you know, I see both sides. Like, for example, part of me didn't want to really share the code that I created with Railway for what I created because I was like, hey, this is kind of like, this could be really interesting. But at the same time I realized, you know, it's kind of that mousetrap thing. And so the journey is now the product that I'm focusing on, which is kind of emerging from stealth.
+
+SPEAKER 3
+Yeah. And that's why I did want to try the Railway competition. But then I was like, I just do it. I did try. And then promptly rail realized I was in over my head and cryptocurrency wasn't acceptable, so.
+
+SPEAKER 2
+So you sent me a thesis bang.
+
+SPEAKER 3
+All right, I need to pair it down and fix up a few sections. But that's the crux of it.
+
+SPEAKER 2
+So the. And again, it's one of those things. Where do you want to. While you might. While you and I might be most proud of the stake Marketing says people want to. People are pay attention because of sizzle first, if that makes sense.
+
+SPEAKER 3
+Yeah. Should drop my white paper.
+
+SPEAKER 2
+Oh, I'm look, I'm looking at this white paper right now. 8-4-1.1 year.
+
+SPEAKER 1
+Yes.
+
+SPEAKER 3
+Maybe I might have moved it because I was doing it on Google Docs and the doc tabs. Like if you have those, it doesn't let you print. Oh, we are in the same document. I see you.
+
+SPEAKER 2
+Okay, so create a table that juxtaposes Bitcoin, Solana, Ethereum stacks with this new approach. Approach, new solution.
+
+SPEAKER 3
+See, I don't know if that'll maybe it'll work. I don't know.
+
+SPEAKER 2
+Because I want to understand. Oh, hold on. What the hell?
+
+SPEAKER 1
+Oh, what the hell?
+
+SPEAKER 2
+Sorry. All right, so you're gonna fall. So the idea is if I. Oh, my God. You gotta. Okay.
+
+SPEAKER 3
+No, that's a good thing. I would like to see that chart as well.
+
+SPEAKER 2
+Yeah, so.
+
+SPEAKER 3
+I think mine's better. Just. Just saying.
+
+SPEAKER 2
+All right, so let's understand what this is in terms of what already exists. Feature aspect, primary utility, computation type, throughput, security model, innovation driver, attack resistance, economic model, data stored on chain and sustainability. So let me send you this. All right, copying. Let me know if this is accurate. This juxtaposes your solution with all of the existing blockchains as a table. So for example, Bitcoin proof of work. Ethereum proof of stake. Solana proof of stake with proof of history stacks, proof of transfer, productive miner, dual layer proof of work plus proof of stake for mathematical comp. Primary utility. Scientific computation is productive miner stacks is bitcoin native smart contracts. Solana is high speed. Right. So these are kind of like outlining their primary utility as a result of their cap theorem decision. Yep. Computation type. Bitcoin is our arbitrary hash puzzles.
+
+SPEAKER 3
+Yep.
+
+SPEAKER 2
+So to. To be honest with you, this table is like a pitch deck.
+
+SPEAKER 3
+Yeah. Mine stands out. I know.
+
+SPEAKER 2
+Now, pitch given orinclofts pitch anything model which is high contrast, high impact. People doing physical things over time. Immediate. Then hold. Then we have narrative that leads into defining market forces that create a. That. That create through a confluence a. An opportunity space like a topos. Okay. And then I need big idea, introduction pattern. Then I need interest, prize time, morality, exempt bang. All right, let's see. So imagine a climber on a sheer rock face, chalked hands gripping micro ledges, muscles trembling, wind howling. Every move deliberate. Every inch gained with purpose. That's bitcoin, A single focus climb. The hardest problem, secure the summit. Now picture a team of climbers, engineers and scientists. And they're not just climbing. They're drilling into the mountains as they go, pulling out rare materials and minerals and building a cable car for everyone else. That's productive miner, the world's first blockchain. Where the climate itself produces real scientific discoveries. For the past 15 years, blockchain has been a hammer hitting on the same nail. Bitcoin hammers, arbitrary puzzles. Ethereum. It opened the floodgates for apps, but is still burning computational fuel without producing anything but a casino in the sky. Solana, you can go faster, but it's the same thing. Arbitrary computations, stacks Tied to Bitcoin really the same thing? Is the computation doing anything but just helping people within that network state speculate? Come on. So meanwhile, scientists have been stuck underfunded and buried under the weight of grant bureaucracy, wasting years for maybe to advance fields like crypto, protein folding or climate modeling. So these three converging currents are smashing into each other right now. We have idle computational firepower, AI and research bottlenecks, and an actual demand for productive assets because investors want returns and real world impact. And this intersection forms a topos, a space where the geometry of opportunity bend toward whoever can harness blockchain energy for productive verifiable outcomes. I won't read the rest, but that's what I have.
+
+SPEAKER 3
+I love it.
+
+SPEAKER 2
+Beautiful.
+
+SPEAKER 3
+It was great. I'm with it.
+
+SPEAKER 2
+So that's how I use thought functions to as prompts. Right. So I'm going to give it the actual. Here's the model of what I want back. All right. Take a look.
+
+SPEAKER 3
+Okay.
+
+SPEAKER 2
+Yeah. Pitch Anything is the best book on sales I've ever read. You want. Do you mind reading it out loud or at least like reading and then providing commentary of what you like? What you did, I didn't like because I'm even myself. I'm working on these thought functions and how they turn ideas into an outcome.
+
+SPEAKER 3
+Hold on. I had it open on my phone. Let me open it on my computer.
+
+SPEAKER 2
+All right.
+
+SPEAKER 3
+Let'S take it from the top. Okay, here's the chart. Where would you like me to read from? From where did you start anything?
+
+SPEAKER 2
+Just respond with what you notice. Just your internal monologue out loud as you read.
+
+SPEAKER 3
+I like the prize section. Prize? The first network where securing transaction also cures diseases, models pandemics, improves encryption and forecast climate. And you get paid to make that happen. This is a trillion dollar territory. Scientific funding, 2 trillion global blockchain market. 2.5 trillion global high performance computing. $60 billion and growing time. The race is now. In the last 18 months, AI's appetite for compute has doubled every four months. Bitcoin's energy use is at an all time high. The window where we can redirect the fire power into productive discovery will last. Once entrenched infrastructure doesn't pivot easily. Productive minor launches before the window slam shut. Morality. I didn't even think about morality. That's an interesting one. We've been burning the world's compute for vanity puzzles like while climate change, pandemics and cyber war escalate. History will not forgive us if we can re. If we can redirect the Energy into discovery and don't towards the bottom. Now those are the big ones I saw. It's funny because, like, I'm so entrenched in this, like, I can present it from so many different angles. But it's interesting to see how AI presents it and also how you ask the questions.
+
+SPEAKER 2
+So I believe that that document can turn into the landing page that signs people up because we want to touch the heart before we touch the hand. And we're really selling to an amygdala. Amygdala dress and drag. Right?
+
+SPEAKER 3
+Yeah.
+
+SPEAKER 2
+So that's why I think, you know, you convert that to a single page, landing page, you're going to have signups.
+
+SPEAKER 3
+Yeah, the. The real question is because it has so many good points, like I need to choose the best ones to do because, like, for the crypto folks, maybe it's the crypt, like the cryptographic security nuances of it that make it more.
+
+SPEAKER 2
+This is secure. This is where AI shines, though. Yeah, right. Because if I wanted to have everyone given the ability to have a personalized explanation of this in 60 seconds or less, I would have an AI talk to them that I specifically designed, provided the document, everything that we just discussed, documents like this. And so no matter who they are, maybe they're crypto focused, maybe they're a charity, maybe they're working on novel material synthesis. What the learner learns is a function of what they already know. And we cannot abstract the learner from their environment, which is made up of the political, legal, regulatory, economic, socio, cultural, technological, competitive, and geographic. Right. And it's impossible for us to do that because it's so much energy to do that. But an AI you know will ask the person a few questions, be like, all right, here's your explanation.
+
+SPEAKER 3
+Another thing I have to figure out how to deploy through AWS.
+
+SPEAKER 2
+No, you just need 11 labs.
+
+SPEAKER 3
+Yeah, right.
+
+SPEAKER 2
+Because the 11 labs is just a system prompt and you pick a voice and there you go. Hey, you want to know about the deal? I think this explains it better than I can. And by the way, it has my voice. So, for example, I could take everything now, develop a comprehensive AI system prompt who is the head of investor relations, so they that they can interface with interested people, interested investors, and explain it to them in terms they understand. He'll leverage the callback library divergence, which states that what the learner learns is a function of what. What they already know. Therefore, you will start the conversation with no, with five questions that derive their doctrine of metaphor frameworks. Given their role expertise, Pesto Climate and favorite lore among comic books, video games, movies, tv, film. Bang. All right, here's the system prompt. And now that we have the system prompt being generated, we now go to 11 labs again. I'm just going to prototype this for you so you can interview it. And I'll go agents. And I'll go new agent. And we'll call it. What do you want to call this person? You.
+
+SPEAKER 3
+Oh, no, I would rather it be a guy because I was creating a mascot and he's the Thought Miner. He's a gnome who minds.
+
+SPEAKER 2
+Give him a. Give him a name. What's his name?
+
+SPEAKER 3
+His name is Thought Miner.
+
+SPEAKER 2
+Salt miner.
+
+SPEAKER 3
+No, thought like your H O u.
+
+SPEAKER 2
+G H T's Miner. Done. Let's see where we are in here. Yes, yes, yes, yes. Or this must elicit specific names of Lore, Ida, E, Matrix, Breaking Bad, the Notebook, etc. Okay, revising. So my body of knowledge is going to consist of white paper, website, text, chat, convo, system prompt. Bang.
+
+SPEAKER 3
+This is so exciting.
+
+SPEAKER 2
+So now that we have the system prompt. All right, now provide the full and exhaustive system prompt, including knowledge, table and format as markdown. Bang. Bang. So now that that's happening, where is my conversational AI? It's over here. Hello, my name is Thoughtminer. I've been expecting you. And now I take this markdown prompt continue as one comprehensive system prompt while preserving 100% of the. Okay, so I have the white paper. Any questions, comments, violent disagreements of what you hear me doing?
+
+SPEAKER 3
+No, it sounds great. I. I don't really know what. I've never used 11 labs before, so I'm not familiar with some of the things you're doing, but it's. You've got a lot of the source material, especially like my. My white paper. If you are able to download all of it Again, I have a hard time downloading it. Can you put it into.
+
+SPEAKER 2
+Can you. Can you just copy and paste the text from the white paper here?
+
+SPEAKER 3
+Another version?
+
+SPEAKER 2
+Yeah, please.
+
+SPEAKER 3
+Because the tabs made it so you can't, like, go through it. I don't know. What am I doing? Okay, here, let me share this with you.
+
+SPEAKER 2
+So that's saved. Now I'm going to take this entire conversation, actually, minus the broken system prompts.
+
+SPEAKER 3
+Here, I sent you the version. That's everything together.
+
+SPEAKER 2
+Okay, Come on. There's the pitch. All right, so I'm going to add the pitch as a document. Come on. Add the pitch as a document, which is just text. Enter a name for your tech pitch. Example. Once you learn, once you after answering, after getting answers. This is an example of a pitch which was created after learning about someone. Bang. So we have the pitch example. I also want the table add document. Bang. Let me create this table. Now, before I create this table, I'm going to format as markdown. The reason I like tables is because they provide the internal structure for information.
+
+SPEAKER 3
+Yeah.
+
+SPEAKER 2
+Mining comparison among blockchains. Let me turn into markdown with cursor. So bang. Markdown me MD paste save, right click. Add to cursor. Format as markdown. Bang. Changing. Now we have a markdown file. You're sending the white paper now. And bang. We have a table. And that table gets added here. Beautiful table. Now, the system prompt should already be there. So that's correct. That's correct. Now I need your copied and pasted text. Where is that on the white paper? Maybe have another document. So I'm just going to copy these as separate things, just to kind of toss in. So add a document. Website. Main page. Bang. Dashboard. Website. Dashboard. Bang. Add document research. Mm. Add text Research done. Validators Explorer. So now I have mining information. Add document text. So now that we have that and the system prompt, we want it to be a guy. All right, so we'll use this for now and save everything we've done. And if we save this so we don't need rag right now, we'll make it deterministic. Well, give it 10% creativity for now. No, I'll give it 25%.
+
+SPEAKER 3
+You can give a percent creativity.
+
+SPEAKER 2
+Yep. That's temperature. Temperature is 0 to 100%. And 100% is hallucinate the away. And 1% is deterministic. Use only the source documents and prefer to say no rather than hallucinate answers. That might be more helpful than friendly. Now, you ready to test with your computer?
+
+SPEAKER 3
+I'm testing something. Okay. Yeah.
+
+SPEAKER 2
+All right, go for it. You open up that on your computer. Let's see if it passes your test.
+
+SPEAKER 3
+Let's see here. You do.
+
+SPEAKER 2
+Your role is to pretend that you're someone like Karma or just pick, you know, someone you know. Right. Or just answer as yourself. Actually. Actually answer as yourself. Imagine you didn't know anything about this.
+
+SPEAKER 3
+Oh, that's going to be so hard.
+
+SPEAKER 2
+I'll be able to hear the conversation on this side if you use your computer.
+
+SPEAKER 3
+Okay, hold on.
+
+SPEAKER 2
+So, maiden voyage of the Investor Relations 11 Labs agent for productiveminer.org take one. No prototype survives first contact of the end user. Let's see how it fails.
+
+SPEAKER 3
+Okay, it's loading.
+
+SPEAKER 5
+Hello, my name is Thought Miner I've been expecting you.
+
+SPEAKER 3
+I just talked to it. I've never used voice before.
+
+SPEAKER 5
+Ah, I understand. It sounds like you're new to interacting with me through voice. To best assist you, could you tell me a bit about your role and focus? Are you more on the technical, financial, or strategic side?
+
+SPEAKER 3
+I'm just a layperson who wants to learn more.
+
+SPEAKER 5
+Thanks for clarifying. How would you describe your familiarity with blockchain, artificial intelligence or computational science? Beginner, intermediate, or expert?
+
+SPEAKER 3
+Beginner.
+
+SPEAKER 5
+Okay, that's helpful to know right now. In your view, which external force is most shaping investment decisions? Political, economic, social, technological, environmental, or legal?
+
+SPEAKER 3
+Economic.
+
+SPEAKER 5
+If I had to explain a complex idea to you using a world you already know well, which of these specific universes would you choose? The Matrix, Breaking Bad, the Notebook, Marvel Cinematic Universe, DC Comics, Game of Thrones, Star Wars, Star Trek, Lord of the Rings, the Simpsons, or any other specific movie, television series, video game, or comic book world. You know, inside and out.
+
+SPEAKER 3
+That's a lot of options. Let's go. Marvel Universe.
+
+SPEAKER 5
+Great choice. Within the Marvel Cinematic Universe, who's your favorite character, hero, or figure, and why?
+
+SPEAKER 3
+I don't have a favorite. I don't know it very well.
+
+SPEAKER 5
+Okay, no problem. How about Star wars then? Is there a character in that universe that you like or find interesting?
+
+SPEAKER 3
+Yoda.
+
+SPEAKER 1
+Yoda?
+
+SPEAKER 3
+Is that his name?
+
+SPEAKER 5
+Yes, Yoda is indeed his name. He's a wise and powerful character. What do you find most appealing or interesting about Yoda?
+
+SPEAKER 3
+He's adorable.
+
+SPEAKER 5
+I understand. So to summarize, you're a layperson with beginner level knowledge. You feel that economic forces are most shaping investment decisions right now. And you like Yoda from Star wars because he's adorable like Yoda. Using the Force to lift an X wing from the swamp, ProductiveMiner harnesses the raw computational power of blockchain to solve complex mathematical problems. Problems. Instead of wasting energy on arbitrary puzzles, Productive miner puts that energy to work on real world scientific challenges, like discovering new prime numbers or cracking cryptographic codes. It's like turning the Force into a renewable energy source for scientific breakthroughs. Does this resonate with you?
+
+SPEAKER 3
+Yes.
+
+SPEAKER 5
+Excellent. Current blockchains expend vast amounts of energy on computation that have no value outside of securing the network. Productive miner, on the other hand, directs that same energy toward solving pressing mathematical problems, generating discoveries that have value for researchers, industries, and society as a whole. Think of it this way. Other blockchains are like using the Force to move rocks around, while productive miner is like using the Force to build a city. Are you following so far?
+
+SPEAKER 3
+Yes.
+
+SPEAKER 5
+The demand for computational power is growing exponentially, driven by advancements in artificial intelligence, data science and other fields. At the same time, there's increasing pressure to make blockchain technology more sustainable and environmentally friendly. Productive Miner addresses both of these trends by transforming a wasteful process into a productive one. Do you see how these market forces create an opportunity for Productive Miner?
+
+SPEAKER 3
+Yes.
+
+SPEAKER 5
+By channeling computational power towards productive ends, Productive Miner creates a new asset class that has both intrinsic value and the potential for significant financial returns. It's like discovering a new element that can be used to create everything from stronger materials to faster computers. What questions do you have at this point?
+
+SPEAKER 3
+Which mathematical problem do you think is the most important in the system?
+
+SPEAKER 5
+That's a great question. Currently, the Riemann Hypothesis is one of the most important mathematical problems we are tackling. It's a notoriously difficult problem that has implications for prime number distribution and cryptography. Solving it would have a profound impact on a variety of fields. Is that helpful?
+
+SPEAKER 3
+Yes. How does it differ from Bitcoin?
+
+SPEAKER 5
+A key difference is that Bitcoin uses its computational power to solve arbitrary hash puzzles, securing the network but not generating any additional value. Productive Miner, on the other hand, uses a dual layer system. It secures the network using a similar proof of work mechanism, but it also directs computational power towards solving mathematical problems. The solutions to these problems are then verified using a proof of stake system. Would you like me to elaborate on any of these points?
+
+SPEAKER 3
+How is it not the computer doing the same work multiple times?
+
+SPEAKER 5
+That's a very insightful question. To avoid redundant computations, Productive Miner employs several strategies. First, the network intelligently distributes tasks, assigning different miners to different parts of a problem or different problems altogether. Second, the system incorporates a validation mechanism. Once a solution is found, it's verified by multiple independent validators to ensure accuracy. This prevents miners from submitting false or inaccurate results. Third, ProductiveMiner uses adaptive algorithms that learn from previous computations. This allows the network to optimize its resource allocation and avoid repeating the same calculations. Does that address your concern?
+
+SPEAKER 3
+Yes. Thank you.
+
+SPEAKER 5
+You're welcome. Is there anything else I can clarify for you at this time?
+
+SPEAKER 3
+No. Thank you.
+
+SPEAKER 5
+You're welcome. It has been a pleasure speaking with you. If you have any further questions in the future, feel free to reach out.
+
+SPEAKER 3
+Okay. That was fun. I've never used talk like the audio AI thing before.
+
+SPEAKER 2
+What do you think? You like it? You hate it. You think it's useful? Throw it out, delete it.
+
+SPEAKER 3
+I think it's useful. And someone else Presented a great use case to me also. They're like, oh, because I'm interviewing for several jobs, they're like, you can talk to it. And as, like, a mock interview. I'm like, that's such a good idea. I don't know. I didn't think of that.
+
+SPEAKER 2
+That's how Aiden was of Rocky's meant he's got a job. He had actually a few. Blake got a job right after getting her Ph.D. in behavioral economics. Same thing. H. Doing progressive rounds of interviews and studying. And then interview. Studying, interviews. Studying, interviews. She leveled up like crazy.
+
+SPEAKER 3
+Yeah, I. I didn't even think of that. I was like, that's such a good use case for the audio, the voice function.
+
+SPEAKER 2
+So what I can do now to make the AI even better is to have the AI improve itself, which is feeding it your transcript. Oh, right. Example. Interaction. Okay. Yeah. But at the root of that is the callback. Liberty divergence. What the learner learns is a function of what they already know. That's why it asks you those questions, to really couch its pitch so it doesn't have to overwhelm your cognitive load with novel concepts.
+
+SPEAKER 3
+Yeah, I thought it was super cool. And I liked his explanations. He made my project sound really good.
+
+SPEAKER 2
+It is a really good project.
+
+SPEAKER 3
+Thank you.
+
+SPEAKER 2
+Perhaps it's an idea whose time has come.
+
+SPEAKER 3
+Come for what?
+
+SPEAKER 2
+Hash power.
+
+SPEAKER 3
+Hash power.
+
+SPEAKER 1
+Yes.
+
+SPEAKER 3
+I need some of that.
+
+SPEAKER 2
+Just hash it. But, yeah, so imagine if all I did is ask for the email address at the end. Right. I think. And again, the only reason I know how to do that that quickly is because I'm doing it for other people, raising hundreds of millions of dollars, and it's the same thing.
+
+SPEAKER 1
+What's the difference?
+
+SPEAKER 3
+My project is better. That's the difference. No, I'm kidding.
+
+SPEAKER 2
+Right? Let me guess. You have a bunch of documents in a folder, and you want to somehow communicate that in a personalized way to a bunch of people. Well, how do you talk to everyone? You can't, right? Imagine someone wants to spend an hour doing due diligence because they're the underwriter, and it's their ass if their model is wrong for the investment. Okay. Either you're gonna sit there and babysit their knowledge for like an hour. Just be like, look, we got AI for that. Have your underwriting agent interview my pitch agent, and then tell me what the transcript says. If you have any more questions that are out of scope for the agent, like, for example, what do I get if I had a million dollars to invest right now for? Right. Oh, there's no term sheet right now. Please contact bean.
+
+SPEAKER 3
+Yeah, contact me.
+
+SPEAKER 2
+There you go. So I just had the call to action at the end, Right. I was listening for it to see if the AI would do it unscripted on system prompted, but apparently not. So I'll add the call to action, but so what? I would. Now here's the beautiful thing about all this. You ready for the best part? But wait, there's more. So what if. So imagine the landing page is simply the pitch, right. With the other pages there, people want to look at it. And then you put that code I just sent you somewhere on the page. Maybe before the script tag in your HTML, something like that. Just say, hey. Or give the LLM this and be like, hey, add this to all the pages. Now anyone who visits the website can do the same thing you just did without you coding anything. You can add that 11 Labs agent to your website.
+
+SPEAKER 3
+Yeah, I can just add it to the front end. It doesn't need to talk to the back end.
+
+SPEAKER 2
+No, because the back end is 11 labs, not you.
+
+SPEAKER 3
+Perfect. Because that's where I get.
+
+SPEAKER 2
+Yeah, don't worry about it. Yeah. All you do is, hey, implement. Put this on the front page, put this on the main page without breaking anything.
+
+SPEAKER 3
+Oh my God. Yeah, I found out. I was like, why is this like Microsoft Word? You move one thing and it ships everything around.
+
+SPEAKER 2
+Moving an image on Microsoft Word, that's it.
+
+SPEAKER 3
+Literally, that's exactly what it's like. I don't like this.
+
+SPEAKER 2
+Yeah. Now you have a chat bot. I want to see what the landing page looks like. Given the pitch for that, to be honest with you, you. That's going to look dangerous.
+
+SPEAKER 3
+Yeah, I know. I'm going to have to update. I know. It's like I want to keep playing around. Like the design part's so fun and I could tinker with that all the time, but I just, I need to get the technical down.
+
+SPEAKER 2
+Well, I mean, again, to me I'm always speaking from the go to market side, which is the technical is never down. But we need to move forward and gather the stone soup ingredients. Right. So on my side, it's like, I know you have the technical challenge, you're going to be facing that for the rest of your life. But for now it's good enough for me to have 10 new signups a day.
+
+SPEAKER 3
+Yep. And that's part of the reason I wanted to deploy an ERC is because I wanted to claim that like token, I wanted to claim it as mine. So I have that. I'm Surprised no one's taking it honestly.
+
+SPEAKER 2
+All right, time to do a new new landing page.
+
+SPEAKER 3
+I don't know how to do that. Are you doing a new landing page for yourself?
+
+SPEAKER 2
+No, for this.
+
+SPEAKER 3
+Oh, because we have. I've never done that. Yeah, yeah.
+
+SPEAKER 2
+I'm just going to go to bolt new or leverable.dev or open a new project here and use htmx to make a landing page. So all I need to do now is decide where I want to start. So let's go. I don't know, bold new and I'll record my screen so you see WAG1 now. So if I go to Bolt New, I'd like you to create a simple but beautiful and responsive landing page. I'd like you to act as an expert web developer in HTML, css, js, htmx, JSON, BEM style css. Given the following information, the JSON file will contain an exhaustive struct with the text tables, image placeholders, video placeholders, etc. One sec. Okay, so let's go back. Start this. All right. Links to image to image, links to video placeholders, etc. Leverage Karov complexity to use HTMX with the JSON data structure to render the UI. Use the model of Tesla and Apple to influence the BEM style css. Now we take the system prompt as input. Actually no, we'll use. Hello, my name is Thought Miner. I've been expecting you. We use this and we use the widget code 11 Labs widget code and we add the table that compares everything including the. And finally the pitch example conversation and let's see if we can handle this. Well, it wants me to sign in with Google now. So now I should use GitHub. What in the world is wrong with you? So you fail. We're going to use lovable.dev and I'm going to paste this in and we're going to use GPT5 and now it wants me to log in. Swear to God, if you don't work when I try GPT5, go for it. Spinning up Preview Thinking.
+
+SPEAKER 3
+Foreign.
+
+SPEAKER 2
+Let's see what you have to think about. All the messages on the right are just hallucinations, just a list of features, attributes and benefits to look at. Thought for 21 seconds. I'll implement a polish polished investor focused landing page using a clean premium theme inspired by Tesla, Tesla and Apple. I'll enhance the design system Add Hero premium button variants create data driven components powered by a JSON content file. Embed the ElevenLabs widget and update SEO tags. Now I'll update the design tokens, button variants, create new components and replace the index page. Beautiful. I'll have the landing page to show you, hopefully very soon.
+
+SPEAKER 3
+I'm excited to see it. I don't. What is a landing page? Is that just the homepage?
+
+SPEAKER 2
+The purpose of a landing page is to execute the call to action required for that phase of the go to market. So the landing page for me is not necessarily to tell them all the details, but get them interested enough to pay attention and ask for more. We move towards that which moves away from us or in cloth. At the moment they expect you to get closer, you move away. That's why the morality is the last step in the process before exit. Like, if you don't do this, you're a piece of dog. You leave.
+
+SPEAKER 3
+I'm curious to see what it looks like.
+
+SPEAKER 2
+Yeah, me too.
+
+SPEAKER 3
+Another one I haven't used. You're using Bolt new. I haven't tried that one yet.
+
+SPEAKER 2
+The one I'm using right now is a lovable.dev oh, I've used lovable before.
+
+SPEAKER 3
+It's okay. I like that. Supabase? Is that what it's called? Yeah, I like that that's integrated with that. But that's the only thing I like.
+
+SPEAKER 2
+About it right now. The true beast is CLAUDE code. To be honest with you, I think 20 bucks in clot code and you're knock this out.
+
+SPEAKER 3
+I'm telling you, I have Claude, but the thing is like I have so many files, I don't even know like I'm in cursor for the most part because it's like an agent. And also there's no limit.
+
+SPEAKER 2
+Well, sometimes what I do when I'm at a critical juncture is I ask the AI to develop a system prompt that will one shot what I have already, that just helps me understand. Hey, what are the critical files here? If I want to create a new slimmed down version, taking the best of what I already have as a new baseline, I can create that. This is not using BEM style css. Come on. Lovable. The only, only thing the landing page is missing is a short bio about yourself. So if I was going to ask you. All right, so I'm, I'm sold on the project. I want to be sold on you. But previous behaviors indicate future performance. So imagine we gave this same plan to 100 different people. It's your experience, knowledge, skills, abilities, and most importantly, attitudes that separate your trajectory from everyone else. So in light of that, can you tell me about Yourself and who you became that put you in a position to feel confident enough to turn ideation into commercialization.
+
+SPEAKER 3
+I don't know if I'm in that position yet. I. I'm kind of faking until I.
+
+SPEAKER 2
+Honestly is better, but honesty is better, but over humility is not accuracy.
+
+SPEAKER 3
+No.
+
+SPEAKER 2
+Right. So do you mind if again, my goal is to create the about us. Right. So you know, for the people that know a bit about your background from spaces but never heard your bio, what have you been up to in the past 10 years that preceded this?
+
+SPEAKER 3
+Yeah, so my background is in community building and sustainability, urban sustainability. I worked with municipalities across the United States for seven years helping them get funding for critical projects to support the community, whether that's disaster, resilience, transportation needs, economic development, housing, social services, parks and recreation. I worked on huge development projects spanning anywhere from a couple hundred thousand to a few hundred million. And I was lucky enough to get to work on the full life cycle of a lot of really awesome projects from the initial development through construction and groundbreaking. So I come from a funding background, but in a different perspective. I come from a grave rating background and I've been interested in the crypto space for a while now, since probably 2018. And I got into the space because I had to write an op ed for an energy resources class in my op ed was on why bitcoin was an incredible waste of energy. It's just an energy guzzler. And I wrote that like seven, eight, nine years ago. So I still had that feeling to this day. And that's kind of what drove me to want to put this project together. It was just an idea I had and I started prototyping and then I started really developing it out. Now I have a white paper, smart contracts, and a website almost up and running. So I hope that's enough of an overview. I don't know what level of detail you need. I can tell you where I went to school at George Washington University. My degree is in international affairs. So I come from a completely different background than finance.
+
+SPEAKER 2
+Beautiful. That's everything I need.
+
+SPEAKER 3
+Perfect.
+
+SPEAKER 2
+Is this ready? Oh, I like it. It's so clean. So does this work?
+
+SPEAKER 3
+Okay.
+
+SPEAKER 2
+This would be crazy if it works. Jump to comparison like Yoda. Be like Yoda because he's adorable and powerful. In Star wars, we redirect raw mining power into discoveries, securing the chain while producing real scientific value. This thing works. Jeez. All right, you ready to test it?
+
+SPEAKER 3
+Yeah, send it over.
+
+SPEAKER 2
+There you go. Five fingers of self direction. What do you notice? What do you like? What don't you like? What would you change? How would you change it? For me? I love everything I'm seeing right here. And the only thing I would add is an about you.
+
+SPEAKER 3
+Yeah, it's a little boring, but that's okay.
+
+SPEAKER 2
+Yeah. And then there's the call function right there. So what I can do now is go back to lovable feedback. Good table. It's boring. Let's 10x that landing page by leveraging the explanation in terms of Pyota. Subscribe for updates so I gave it the feedback. Good table. It's boring. Let's 10x that landing page by leveraging the explanation in terms of Yoda. Let's really build out this landing page to be a single page funnel which leads people to start a call or subscribe for updates. Thinking so if I remember correctly from everything you said, let's see. Hello, my name is Beam. Last decade recovery Economic development and housing, Parks and recreation International affairs graduate from George Washington University was an op ed for an energy research paper.
+
+SPEAKER 3
+Yeah. And Energy Resources.
+
+SPEAKER 2
+Energy resources. Okay. Hello, my name is Bean. For the past decade as a grant writer, I've worked on projects that have attracted between 100k to 100mil of funding for disaster recovery, economic development and housing partners, parks and Iraq, municipalities, etc. I'm an International affairs graduate from GWU. I've seen the full life cycle of projects going from ideation to breaking ground to construction. Thought Miner started as an op ed for an energy resources class where I argued that Bitcoin represents a risk that cannot be destroyed but can be transformed.
+
+SPEAKER 3
+Oh, I love that.
+
+SPEAKER 2
+So did this stop? What the is going on? Lovable. Hey doesn't do you know what? You are not giving me exactly what I want. And therefore we're going to you and go to grok. We're going to paste this in. Okay. And then finally the about us the founder and I take this and this and this and codepen is yeah, sometimes these things get so verbose. All right, let's see if you can do a lovable But I don't have confidence in you anymore because you just stopped working. And in the time you stopped working now I could just dance myself. So now that we have this, let me go file close folder Bang open Project Bang Landing page. No, we'll call it Thought Dash Minor landing page variation and that's that we will open this and all we're going to do is create the files which is. Well, I don't know where we create boosted True. There we go. So this is the. Well, I need to know the names of the files. Index, HTML. Bang, done. Styles CSS. Bang, done.
+
+SPEAKER 1
+Not.
+
+SPEAKER 2
+Fuck off. Styles CSS done. There's my BEM style CSS and here is my JavaScript. So I imagine that script JS. And finally, where is my database of information? Separation of concerns. We do not mix our data with the representation of that data. What is this called? The fuck is the name of this thing? Sample code. Where is it? So the JavaScript must tell it where. So what the hell is the JSON file called? Nuts.
+
+SPEAKER 3
+That's how I feel with all these tools.
+
+SPEAKER 2
+Just.
+
+SPEAKER 3
+I think I get it and then something falls apart.
+
+SPEAKER 2
+Back up. I just want the HTML css, JS and JSON. I said use Yoda, you forgetful idiot. Okay, good. Being a lazy. This is the information. Include the bio one. And I'm gonna ask you to think harder on this one. Okay. How's Lovable doing? Oh, I knew you would crap out. Yeah.
+
+SPEAKER 3
+I thought you were talking to.
+
+SPEAKER 2
+Oh, wow. I think it worked. All right, well, Lovable updated. So I'm going to update Lovable right now. I wish you put Yoda on the main page, but you know, it is. Oh, my God. It wrote the pitch in Yoda's voice. Amazing. All right, Lovable. I see you waste cycles on puzzles. Most chains do productive value, little value. They create, redirect the flow. We will secure the network while advancing science, the way of mind. This is.
+
+SPEAKER 3
+I love your Yoda. That was wonderful.
+
+SPEAKER 2
+It's kind of like a combination of Jordan Peterson and that's who I was thinking about in my head is Jordan Peterson with his Kermit the Frog voice.
+
+SPEAKER 3
+It was a little kermity.
+
+SPEAKER 2
+Yeah. All right. What do you think about this new one?
+
+SPEAKER 3
+Let's see it.
+
+SPEAKER 2
+Oh, it's. All you have to do is refresh. That's the most beautiful part. Same lovable.dev thingy. Oh, it works. The Yoda pitch is right there. Nice. And look at that. Next steps. Book a calling Cal and you Nuts. Good for you. Good for you. Thought mine, Genesis. Lovable Yoda's pitch. Yeah, that's beautiful. Amazing.
+
+SPEAKER 3
+It is pretty fun. I like, needs a little bit more color, but otherwise the content is there.
+
+SPEAKER 2
+So this is following the Tesla Apple confluence of design. I usually do that first to make sure that the white space is enforced, if that makes sense. Because, like a landing page and the layout is. But the content is good. I'm like, oh, no. I'm gonna spend the next 18 hours trying to center this Thing without breaking everything else.
+
+SPEAKER 3
+Yep, just like Microsoft.
+
+SPEAKER 2
+I like this. So now we have a landing page.
+
+SPEAKER 3
+I redeployed my aws. Let's see if this works.
+
+SPEAKER 2
+Beautiful. So that's kind of again, an accelerated kind of. How long would we take? Maybe an hour and a half, two hours. Right, but now we have a landing page whose purpose is to pitch them. And we pitch them via read write, which is tech and auditory, which is 11 labs. It incredible. Okay, so Grok, you were thinking deeply about something. All right. So you're not gonna up this time. Swear to God. All right. I had you think deeply, by the way, so I want to hear no. So this is called what Data JSON. Yes. That's a good idea. Huh? Giving me the HTML them style css. Did you actually do B style? I hope so. That should be everything. And of course the JavaScript and that is 66 lines and we open with live server. Oh wow.
+
+SPEAKER 3
+What? What did you just do? I have. You're like walking me through it, but I have no idea what's going on.
+
+SPEAKER 2
+So. Holy galoly. Oh, let me go index HTML right before the script. I go here, here. I'm about to deploy. The good thing is my computer is connected to the Internets, so. Oh yeah, amazing. And now I change the bang investor relations. So that's that. And so what are we just going to do? Push this thing? Well, let's test it first. So if I want to build the future, join the alliance, there is everything. Oh, okay, so now we're done. So let's push create readme md. So it's creating the readme md. So my process now. So what I did is I created the lovable. Right. That's one explanation. Now I'm creating the bare bones alternative like variation two. Because anything worth doing is to have at least a couple courses of action explored. Now that I have that, let's push to GitHub as public. Hold on, does this have the.
+
+SPEAKER 1
+Yes.
+
+SPEAKER 2
+Yes. Okay. It does have it. Okay. Bang will push as a public repo. Get init. Beautiful. Git branch main git add. Initial commit, use the CLI to create the repo. Blah blah blah. Perfect. We've now deployed it. And so we can go to Exponent Labs, GitHub.com Exponent Labs HQ. And there it is, the then we go Netlify app and sign up with GitHub authorize Netlify. And we're doing that because that's railway for us. Railway is infrastructure that we need. Let's see, personal company junior continue to deploy GitHub. Authorize Netlify back in. Give it the permission to install send code via email. Check the push code because you want to make sure. Who's Sarah from Railway? Oh, so that's fine. Now we are back in. We are going to find Thought Miner and we're going to deploy Thought Miner. This should deploy very quick, quickly, because this is called Mogarov Complexity optimized. And we are now done and we have now deployed it. All right, ready for the variation. It's funny how the.
+
+SPEAKER 3
+Yep.
+
+SPEAKER 2
+All right, so you've seen course of action A to get signups and this is course of action B. Much more pared down, completely transparent. Hey, this is how I'm gonna manipulate you in order, right? Truth transparency. I'm going to show the exact. I'm going to show you the exact sales algorithm I'm using. I don't even mind telling you, hey, I'm an investor relationship and I use pitch anything to make sure that I get my point across. Is that okay, you feel manipulated if I use a thought function to try to be clear? Because I don't want an investor who's going to be pissed. So I'd rather be more accurate than helpful. So, yeah, that's it. So from zero to one with lovable. And then we took that same thing and we created something in just the most basic of HTML, CSS, JavaScript, JSON, and that's it. And you can call, you know, investor relations. It's a good experiment. Go to market. Now the real question is, I don't know if the email works right. But yeah, if it helps people sign up, then it's doing a good job. But like I said, when I look at, look at what your. What you have right now, it's all good, but that's the stake. And from what I've observed, people would rather like, sizzle in terms of attention. And then once you have their attention and give them what they want, you can give them what they need or at least transition into that, which is why I like the table. I'm going to tell you a story, but after the story, bang, here's the.
+
+SPEAKER 1
+Information.
+
+SPEAKER 2
+And then bang, here's the about me. Call my bluff. Great sesh. So that's what we do with Rocky. See, everything we just did, that's what we were doing yesterday with Rocky, but for three different projects at the same time. That's why Rocky was like, man, it's getting tired. Doing three different sprints simultaneously, one for this, one for that, one for that. But you know, turns out AI didn't make us just allowing us to do more simultaneously, that's all.
+
+SPEAKER 3
+Yeah, sometimes it feels like that and sometimes I feel like it makes me take longer.
+
+SPEAKER 2
+Yeah. That's why I wanted to move into doing math with language, not just language with language. Dissatisfied with precision I was getting. So I learned logic, predicate, propositional, modal and boolean logic. Then I learned before that I learned category theory with matrices and domains and functors. Right. So like I had the language that helps me do math with the LLM, so to speak. And that's what I really want. I don't want a conversation. That's why I might have the agent speak in Esperanto instead of English, because why should I have agent to agent communication using lossy English? So again, my brain's. But it's happening.
+
+SPEAKER 3
+Okay, well this is really helpful and I'm definitely going to stay some of the things you put together, but I need to go eat lunch. It's lunchtime. Bye, blackface. Bye Karma.
+
+SPEAKER 2
+Hey all. Love you. Take care.
+
+SPEAKER 3
+It's.
+
+SPEAKER 2
+Great episode. Really great episode. This episode contains the current state of the syndicate Exponent Labs featuring Michael and Rocky. And we talked to Karma today. Today. And we talked to Bean today. And through a conversation with Bean we kind of showed the exponental labs in action. And it looks like one of the main takeaways is that if we're going to build AGI, we can use the 12 disciples. Claude sub agents for 13 to 50 and 1 through 12. And what was the piece I was missing? It's in the transcript. We have quad to do everything we the one shot prompt and then agent. Agent. In Esperanto, we we proved that these frameworks work for Bean. That was the most important thing today was to show how an AGI can help someone. Like being apologist. A founder move from ideation to go to market, which is progressive commercialization. Touch the heart before you touch the hand. What the learner learns is a function of what they already know. Progressive disclosure, call to action oriented. Yeah, the interaction with Bean, creating the two prototypes, exactly what we do. We tested, it fucking worked. So that's AGI at play. That's just one of the agents, the investor relations agent. These are going to be roles 13 through 50. See you soon.
