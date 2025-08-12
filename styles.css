@@ -1,5 +1,6 @@
 /* ========================================
-   LANDING PAGE CSS - RIGOROUS BEM METHODOLOGY
+   LANDING PAGE CSS - STARTING FROM SCRATCH
+   FOUR ELEMENTS, SIMPLE LAYOUT
    ======================================== */
 
 /* RESET & BASE */
@@ -27,21 +28,21 @@ body {
 }
 
 /* ========================================
-   HERO__LOGO ELEMENT
+   ELEMENT 1: LOGO - TOP RIGHT CORNER
    ======================================== */
 
 .hero__logo {
     position: fixed;
-    top: 5vh;
-    right: 5vw;
-    width: 8vh;
-    height: 8vh;
-    border-radius: 1.5vh;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
     z-index: 100;
 }
 
 /* ========================================
-   HERO__VIDEO-BG ELEMENT
+   ELEMENT 2: BACKGROUND VIDEO - FULL SCREEN
    ======================================== */
 
 .hero__video-bg {
@@ -55,7 +56,7 @@ body {
 }
 
 /* ========================================
-   HERO__CONTAINER ELEMENT
+   MAIN CONTAINER
    ======================================== */
 
 .hero__container {
@@ -63,58 +64,50 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5vh 5vw;
-    gap: 5vw;
+    padding: 40px;
+    gap: 40px;
     z-index: 2;
 }
 
 /* ========================================
-   HERO__CONTENT ELEMENT
+   ELEMENT 3: CONTENT - HEADLINE + CTA
    ======================================== */
 
 .hero__content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3vh;
+    gap: 30px;
 }
 
-/* ========================================
-   HERO__HEADLINE ELEMENT
-   ======================================== */
-
 .hero__headline {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: 48px;
     font-weight: 800;
     text-align: center;
     line-height: 1.2;
+    white-space: nowrap;
 }
-
-/* ========================================
-   HERO__CTA ELEMENT
-   ======================================== */
 
 .hero__cta {
     background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
     color: white;
     border: none;
-    padding: 2vh 4vw;
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    padding: 20px 40px;
+    font-size: 24px;
     font-weight: 600;
-    border-radius: 1.5vh;
+    border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 1vh 3vh rgba(52, 152, 219, 0.4);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
     transition: transform 0.2s ease;
     z-index: 10;
-    position: relative;
 }
 
 .hero__cta:hover {
-    transform: translateY(-0.2vh);
+    transform: translateY(-2px);
 }
 
 /* ========================================
-   HERO__VIDEO ELEMENT
+   ELEMENT 4: DEMO VIDEO
    ======================================== */
 
 .hero__video {
@@ -122,18 +115,14 @@ body {
     justify-content: center;
 }
 
-/* ========================================
-   HERO__DEMO-VIDEO ELEMENT
-   ======================================== */
-
 .hero__demo-video {
     width: 100%;
-    border-radius: 2vh;
-    box-shadow: 0 2vh 6vh rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
 /* ========================================
-   RESPONSIVE BREAKPOINTS - NO OVERLAPPING CONCERNS
+   RESPONSIVE BREAKPOINTS - SIMPLE & WORKING
    ======================================== */
 
 /* ========================================
@@ -144,14 +133,15 @@ body {
     .hero__container {
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 5vh 5vw;
-        gap: 4vh;
+        padding: 40px 20px;
+        gap: 30px;
     }
     
     .hero__content {
         width: 100%;
         align-items: center;
         order: 2;
+        gap: 20px;
     }
     
     .hero__video {
@@ -160,17 +150,12 @@ body {
     }
     
     .hero__headline {
-        font-size: clamp(1.5rem, 6vw, 2rem);
-    }
-    
-    .hero__logo {
-        width: 6vh;
-        height: 6vh;
+        font-size: 36px;
     }
     
     .hero__cta {
-        padding: 3vh 6vw;
-        font-size: clamp(1rem, 3vw, 1.25rem);
+        padding: 16px 32px;
+        font-size: 20px;
     }
 }
 
@@ -183,24 +168,25 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 5vh 5vw;
-        gap: 5vw;
+        padding: 40px;
+        gap: 40px;
     }
     
     .hero__content {
         width: 40%;
         align-items: flex-start;
+        gap: 25px;
     }
     
     .hero__headline {
-        font-size: clamp(1.8rem, 3vw, 2.2rem);
+        font-size: 32px;
         text-align: left;
-        margin-bottom: 2vh;
+        margin-bottom: 20px;
     }
     
     .hero__cta {
-        padding: 2vh 4vw;
-        font-size: clamp(1rem, 2vw, 1.125rem);
+        padding: 18px 36px;
+        font-size: 18px;
         align-self: flex-start;
     }
     
@@ -218,29 +204,30 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 5vh 5vw;
-        gap: 5vw;
+        padding: 40px;
+        gap: 40px;
     }
     
     .hero__content {
-        width: 45%;
+        width: 40%;
         align-items: flex-start;
+        gap: 25px;
     }
     
     .hero__headline {
-        font-size: clamp(2rem, 3vw, 2.5rem);
+        font-size: 28px;
         text-align: left;
-        margin-bottom: 2vh;
+        margin-bottom: 20px;
     }
     
     .hero__cta {
-        padding: 2vh 4vw;
-        font-size: clamp(1.125rem, 2vw, 1.25rem);
+        padding: 18px 36px;
+        font-size: 18px;
         align-self: flex-start;
     }
     
     .hero__video {
-        width: 45%;
+        width: 50%;
     }
 }
 
@@ -253,23 +240,24 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 8vh 6vw;
-        gap: 8vw;
+        padding: 60px;
+        gap: 60px;
     }
     
     .hero__content {
         width: 35%;
         align-items: flex-start;
+        gap: 30px;
     }
     
     .hero__headline {
-        font-size: clamp(2.5rem, 4vw, 3.5rem);
+        font-size: 40px;
         text-align: left;
     }
     
     .hero__cta {
-        padding: 3vh 5vw;
-        font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+        padding: 24px 48px;
+        font-size: 22px;
     }
     
     .hero__video {
