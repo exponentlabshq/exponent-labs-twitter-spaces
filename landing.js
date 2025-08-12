@@ -1,8 +1,8 @@
 // Landing Page JavaScript - Clean and Simple
 // Only essential functionality for a professional landing page
 
-// Video background handling
 document.addEventListener('DOMContentLoaded', function() {
+    // Video background handling
     const video = document.querySelector('.hero__video-bg');
     if (video) {
         video.addEventListener('loadeddata', function() {
@@ -17,83 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // AGI Demo Video handling
     const demoVideo = document.querySelector('.hero__demo-video');
-    const videoOverlay = document.querySelector('.video-overlay');
-    
-    if (demoVideo && videoOverlay) {
-        // Hide overlay when video starts playing
-        demoVideo.addEventListener('play', function() {
-            videoOverlay.classList.add('hidden');
-        });
-        
-        // Show overlay when video ends
-        demoVideo.addEventListener('ended', function() {
-            videoOverlay.classList.remove('hidden');
-        });
-        
-        // Show overlay when video is paused
-        demoVideo.addEventListener('pause', function() {
-            videoOverlay.classList.remove('hidden');
-        });
-    }
-});
-
-// Play AGI Demo Video
-function playVideo() {
-    const video = document.querySelector('.hero__demo-video');
-    if (video) {
-        video.play();
-    }
-}
-
-// Navigation function
-function navigateToExecutiveSummary() {
-    // Check if we're on the same page or need to navigate
-    const executiveSummaryElement = document.querySelector('.executive-summary');
-    
-    if (executiveSummaryElement) {
-        // Smooth scroll if element exists on same page
-        executiveSummaryElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    } else {
-        // Navigate to executive summary page if it's separate
-        window.location.href = 'executive-summary.html';
-    }
-}
-
-// Add smooth scroll behavior for all internal links
-document.addEventListener('DOMContentLoaded', function() {
-    const internalLinks = document.querySelectorAll('a[href^="#"]');
-    
-    internalLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
+    if (demoVideo) {
+        // Add click to play functionality
+        demoVideo.addEventListener('click', function() {
+            if (this.paused) {
+                this.play();
+            } else {
+                this.pause();
             }
         });
-    });
-    
-    // Add subtle hover effects for interactive elements
-    const interactiveElements = document.querySelectorAll('.tech-item, .trust-item');
-    
-    interactiveElements.forEach(element => {
-        element.addEventListener('mouseenter', function() {
-            this.style.transform = 'translateY(-2px)';
-        });
-        
-        element.addEventListener('mouseleave', function() {
-            this.style.transform = 'translateY(0)';
-        });
-    });
+    }
 });
-
-// Export function for global access
-window.navigateToExecutiveSummary = navigateToExecutiveSummary;

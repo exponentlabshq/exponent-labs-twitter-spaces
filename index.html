@@ -3,74 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exponent Labs - AGI Development Through Thought Functions</title>
+    <title>AGI Is As AGI Does</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
     <section class="hero">
-        <!-- Video Background -->
+        <!-- Logo: Top right corner -->
+        <img src="exponent-labs-logo.jpeg" alt="Exponent Labs" class="hero__logo">
+        
+        <!-- Background video -->
         <video class="hero__video-bg" autoplay muted loop playsinline>
             <source src="n.mp4" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         
+        <!-- Main container -->
         <div class="hero__container">
-            <!-- Brand Identity -->
-            <div class="hero__brand">
-                <img src="exponent-labs-logo.jpeg" alt="Exponent Labs" class="hero__logo">
-            </div>
-            
-            <!-- Primary Message -->
-            <div class="hero__message">
-                <h1 class="hero__headline">Building the Future of AI</h1>
-                <p class="hero__subheadline">
-                    We're solving the hardest problems in artificial intelligence by combining 
-                    breakthrough theoretical insights with rapid, real-world testing.
-                </p>
-            </div>
-            
-            <!-- Primary CTA -->
-            <div class="hero__cta">
-                <button class="cta-button" onclick="navigateToExecutiveSummary()">
+            <!-- Content section: Headline + CTA -->
+            <div class="hero__content">
+                <h1 class="hero__headline">AGI Is As AGI Does</h1>
+                <button class="hero__cta" onclick="window.location.href='executive-summary.html'">
                     See Our AGI Blueprint
                 </button>
             </div>
             
-            <!-- AGI Demo Video -->
-            <div class="hero__video-section">
-                <div class="hero__video-container">
-                    <video class="hero__demo-video" preload="none" controls>
-                        <source src="exponentlabs-agi-role-demo-investorrelations-sales.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="video-overlay">
-                        <button class="play-button" onclick="playVideo()">
-                            <span class="play-icon">▶</span>
-                            <span class="play-text">Watch AGI in Action</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Trust Indicators -->
-            <div class="hero__trust">
-                <div class="trust-item">
-                    <span class="trust-icon">⚡</span>
-                    <span class="trust-text">Breakthrough Innovation</span>
-                </div>
-                <div class="trust-item">
-                    <span class="trust-icon">🚀</span>
-                    <span class="trust-text">Rapid Execution</span>
-                </div>
-                <div class="trust-item">
-                    <span class="trust-icon">🎯</span>
-                    <span class="trust-text">Proven Results</span>
-                </div>
+            <!-- Video section -->
+            <div class="hero__video">
+                <video class="hero__demo-video" autoplay muted loop playsinline controls>
+                    <source src="exponentlabs-agi-role-demo-investorrelations-sell.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </section>
-
-    <script src="landing.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
