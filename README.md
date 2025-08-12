@@ -1,5 +1,9 @@
 # Exponent Labs Executive Summary
 
+![Exponent Labs Landing Page](screenshot-readme.png)
+
+**🌐 Live Project:** [https://exponent-labs-twitter-spaces.netlify.app/](https://exponent-labs-twitter-spaces.netlify.app/)
+
 ## Overview
 
 This repository contains an interactive executive summary of a Twitter Spaces conversation between Rocky (CTO, Exponent Labs), Michael Jagdeo (Headhunter & Vibe Coder), and Bean (Founder, ProductiveMiner.org). The conversation focused on AGI development through theoretical frameworks and practical software implementation.
