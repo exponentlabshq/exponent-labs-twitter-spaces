@@ -53,6 +53,28 @@ body {
     .hero__video-bg {
         opacity: 0.1; /* Even darker on mobile for better readability */
     }
+    
+    .hero__video-container {
+        max-width: 90vw;
+        margin: 0 1rem;
+    }
+    
+    .play-button {
+        padding: 0.875rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .play-text {
+        display: none; /* Hide text on mobile, just show play icon */
+    }
+    
+    .play-button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        padding: 0;
+        justify-content: center;
+    }
 }
 
 /* Fallback for when video doesn't load */
@@ -70,9 +92,124 @@ body {
         "brand"
         "message"
         "cta"
+        "video"
         "trust";
     position: relative;
     z-index: 3;
+}
+
+/* AGI Demo Video Section */
+.hero__video-section {
+    grid-area: video;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.hero__video-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    background: #000;
+}
+
+.hero__demo-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.video-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.play-button {
+    background: rgba(52, 152, 219, 0.9);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.play-button:hover {
+    background: rgba(52, 152, 219, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(52, 152, 219, 0.4);
+}
+
+.play-icon {
+    font-size: 1.5rem;
+}
+
+/* Desktop Layout - Side by Side */
+@media (min-width: 1024px) {
+    .hero__container {
+        grid-template-areas: 
+            "brand brand"
+            "message video"
+            "cta video"
+            "trust trust";
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+        gap: 2rem 4rem;
+    }
+    
+    .hero__brand {
+        grid-area: brand;
+        text-align: center;
+    }
+    
+    .hero__message {
+        grid-area: message;
+        text-align: left;
+        margin: 0;
+    }
+    
+    .hero__cta {
+        grid-area: cta;
+        text-align: left;
+    }
+    
+    .hero__video-section {
+        grid-area: video;
+        align-self: center;
+        padding: 0;
+    }
+    
+    .hero__trust {
+        grid-area: trust;
+        text-align: center;
+    }
+    
+    .hero__video-container {
+        max-width: 500px;
+    }
 }
 
 /* Brand Identity */

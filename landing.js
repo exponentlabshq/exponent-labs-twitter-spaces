@@ -14,7 +14,36 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.hero').classList.remove('video-loaded');
         });
     }
+    
+    // AGI Demo Video handling
+    const demoVideo = document.querySelector('.hero__demo-video');
+    const videoOverlay = document.querySelector('.video-overlay');
+    
+    if (demoVideo && videoOverlay) {
+        // Hide overlay when video starts playing
+        demoVideo.addEventListener('play', function() {
+            videoOverlay.classList.add('hidden');
+        });
+        
+        // Show overlay when video ends
+        demoVideo.addEventListener('ended', function() {
+            videoOverlay.classList.remove('hidden');
+        });
+        
+        // Show overlay when video is paused
+        demoVideo.addEventListener('pause', function() {
+            videoOverlay.classList.remove('hidden');
+        });
+    }
 });
+
+// Play AGI Demo Video
+function playVideo() {
+    const video = document.querySelector('.hero__demo-video');
+    if (video) {
+        video.play();
+    }
+}
 
 // Navigation function
 function navigateToExecutiveSummary() {
