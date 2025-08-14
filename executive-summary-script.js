@@ -448,6 +448,9 @@ function renderPrototypes() {
             html += `
                 <div class="section">
                     <h4>${prototype.name}</h4>
+                    <video width = "320" height="240" controls>
+                    <source src="exponentlabs-agi-role-demo-investorrelations-sell.mp4" type=video/mp4>
+                    </video>
                     <p><strong>Platform:</strong> ${prototype.platform}</p>
                     <p><strong>Description:</strong> ${prototype.description}</p>
                     <p><strong>URL:</strong> <a href="${prototype.url}" target="_blank" style="color: #3498db; text-decoration: none;">${prototype.url}</a></p>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exponent Labs Twitter Spaces - AGI Development Through Haskell Remix Engines</title>
+    <link rel="stylesheet" href="exponent-labs-x-space-agi-haskell-remix-engine-dorahacks-hackathon-sbtc-wed-aug-13-2025-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <canvas id="threejs-canvas"></canvas>
+        <h1 id="title">Loading...</h1>
+        
+        <!-- Mobile Floating Navigation -->
+        <div class="mobile-nav">
+            <button class="mobile-nav-trigger" onclick="toggleMobileNav()">
+                <span class="nav-icon">☰</span>
+            </button>
+            <div class="mobile-nav-dropdown" id="mobileNavDropdown">
+                <div class="mobile-nav-item" onclick="showTab('frameworks')">Theoretical Frameworks</div>
+                <div class="mobile-nav-item" onclick="showTab('thought-functions')">Thought Functions</div>
+                <div class="mobile-nav-item" onclick="showTab('implementations')">Software Implementations</div>
+                <div class="mobile-nav-item" onclick="showTab('insights')">Key Insights</div>
+                <div class="mobile-nav-item" onclick="showTab('achievements')">Technical Achievements</div>
+                <div class="mobile-nav-item" onclick="showTab('live-development')">Live Development</div>
+                <div class="mobile-nav-item" onclick="showTab('tool-integration')">Tool Integration</div>
+                <div class="mobile-nav-item" onclick="showTab('hackathon-journey')">Hackathon Journey</div>
+                <div class="mobile-nav-item" onclick="showTab('mentorship-dynamics')">Mentorship Dynamics</div>
+                <div class="mobile-nav-item" onclick="showTab('career-evolution')">Career Evolution</div>
+                <div class="mobile-nav-item" onclick="showTab('prototypes')">Live Prototypes</div>
+                <div class="mobile-nav-item" onclick="showTab('future')">Future Directions</div>
+            </div>
+        </div>
+        
+        <input type="text" class="search-box" placeholder="Search through the Twitter Spaces summary..." id="searchBox">
+        
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showTab('frameworks')">Theoretical Frameworks</button>
+            <button class="nav-tab" onclick="showTab('thought-functions')">Thought Functions</button>
+            <button class="nav-tab" onclick="showTab('implementations')">Software Implementations</button>
+            <button class="nav-tab" onclick="showTab('insights')">Key Insights</button>
+            <button class="nav-tab" onclick="showTab('achievements')">Technical Achievements</button>
+            <button class="nav-tab" onclick="showTab('live-development')">Live Development</button>
+            <button class="nav-tab" onclick="showTab('tool-integration')">Tool Integration</button>
+            <button class="nav-tab" onclick="showTab('hackathon-journey')">Hackathon Journey</button>
+            <button class="nav-tab" onclick="showTab('mentorship-dynamics')">Mentorship Dynamics</button>
+            <button class="nav-tab" onclick="showTab('career-evolution')">Career Evolution</button>
+            <button class="nav-tab" onclick="showTab('prototypes')">Live Prototypes</button>
+            <button class="nav-tab" onclick="showTab('future')">Future Directions</button>
+        </div>
+
+        <div id="frameworks" class="tab-content active">
+            <h2>Core Theoretical Frameworks</h2>
+            <div id="frameworks-content"></div>
+        </div>
+
+        <div id="thought-functions" class="tab-content">
+            <h2>Thought Functions and Prompts</h2>
+            <div id="thought-functions-content"></div>
+        </div>
+
+        <div id="implementations" class="tab-content">
+            <h2>Practical Software Implementations</h2>
+            <div id="implementations-content"></div>
+        </div>
+
+        <div id="insights" class="tab-content">
+            <h2>Key Insights and Lessons</h2>
+            <div id="insights-content"></div>
+        </div>
+
+        <div id="achievements" class="tab-content">
+            <h2>Technical Achievements</h2>
+            <div id="achievements-content"></div>
+        </div>
+
+        <div id="live-development" class="tab-content">
+            <h2>Live Development</h2>
+            <div id="live-development-content"></div>
+        </div>
+
+        <div id="tool-integration" class="tab-content">
+            <h2>Tool Integration</h2>
+            <div id="tool-integration-content"></div>
+        </div>
+
+        <div id="hackathon-journey" class="tab-content">
+            <h2>Hackathon Journey</h2>
+            <div id="hackathon-journey-content"></div>
+        </div>
+
+        <div id="mentorship-dynamics" class="tab-content">
+            <h2>Mentorship Dynamics</h2>
+            <div id="mentorship-dynamics-content"></div>
+        </div>
+
+        <div id="career-evolution" class="tab-content">
+            <h2>Career Evolution</h2>
+            <div id="career-evolution-content"></div>
+        </div>
+
+        <div id="prototypes" class="tab-content">
+            <h2>Live Prototypes</h2>
+            <div id="prototypes-content"></div>
+        </div>
+
+        <div id="future" class="tab-content">
+            <h2>Future Directions</h2>
+            <div id="future-content"></div>
+        </div>
+    </div>
+    <script src="exponent-labs-x-space-agi-haskell-remix-engine-dorahacks-hackathon-sbtc-wed-aug-13-2025-script.js"></script>
+</body>
+</html>
